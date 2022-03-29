@@ -15,7 +15,5 @@ while(cap.isOpened()):
     if k == ord('q'):
         break
 
-
-
 cap.release()
 cv2.destroyAllWindows()
