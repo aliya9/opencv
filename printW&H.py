@@ -5,7 +5,7 @@ print(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 print(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 cap.set(3, 3000)
-cap.set(4,3000)
+cap.set(4, 3000)
 
 print(cap.get(3))
 print(cap.get(4))
@@ -24,5 +24,6 @@ while(cap.isOpened()):
 
     else:
        break
+
 cap.release()
 cv2.destroyAllWindows()
